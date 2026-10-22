@@ -1,0 +1,62 @@
+file,column,blank_count,distinct_count,min_value,max_value,distinct_values
+orders.csv,order_id,0,2400,,,
+orders.csv,order_ts,1,2393,2026-09-01T06:30:15+00:00,2027-01-01T09:00:00+00:00,
+orders.csv,customer_id,18,401,,,
+orders.csv,store_id,0,18,,,
+orders.csv,product_id,0,159,,,
+orders.csv,quantity,0,9,-3,5,
+orders.csv,unit_price,0,133,10.0,883.0,
+orders.csv,discount_pct,0,8,0,250,
+orders.csv,order_amount,0,1155,-1593.0,9576.0,
+orders.csv,payment_mode,0,9,,,CARD | Card | Cash on Delivery | Cashh | UPI | UPI  | Wallet | cod | upi
+orders.csv,order_status,0,5,,,CANCELLED | DELIVERED | Pending?? | RETURNED | delivered
+orders.csv,channel,0,2,,,App | Web
+orders.csv,delivery_minutes,164,32,8.0,1440.0,
+payments.csv,payment_id,0,2224,,,
+payments.csv,order_id,0,2224,,,
+payments.csv,payment_ts,0,2210,2026-09-01T06:30:24+00:00,2027-01-01T09:01:46+00:00,
+payments.csv,payment_mode,0,9,,,CARD | Card | Cash on Delivery | Cashh | UPI | UPI  | Wallet | cod | upi
+payments.csv,amount_paid,0,1127,-1593.0,9576.0,
+payments.csv,payment_status,0,3,,,FAILED | REFUNDED | SUCCESS
+payments.csv,gateway_ref,301,1924,,,
+customers.csv,customer_id,0,400,,,
+customers.csv,full_name,0,280,,,
+customers.csv,email,0,397,,,
+customers.csv,phone,0,405,,,
+customers.csv,city,6,2,,,
+customers.csv,area,0,15,,,
+customers.csv,pincode,0,17,,,
+customers.csv,signup_date,0,315,2024-06-01T00:00:00+00:00,2027-01-05T00:00:00+00:00,
+customers.csv,loyalty_tier,0,7,,,BRONZE | Bronze | Gold | Platinum | SILVER | Silver | bronze
+customers.csv,is_active,0,2,,,N | Y
+products.csv,product_id,0,150,,,
+products.csv,product_name,0,152,,,
+products.csv,category,3,7,,, | Dairy & Bakery | Fruits & Vegetables | Household | Personal Care | Snacks & Beverages | Staples
+products.csv,sub_category,0,21,,,Atta | Biscuits | Bread | Cheese | Chips | Cleaners | Curd & Paneer | Dal | Detergent | Fresh Fruits | Fresh Vegetables | Herbs | Kitchen Supplies | Milk | Oil | Oral Care | Rice | Shampoo | Soap | Soft Drinks | Tea & Coffee
+products.csv,brand,0,23,,,
+products.csv,mrp,0,135,-203.0,883.0,
+products.csv,cost_price,0,150,6.79,631.79,
+products.csv,unit,0,3,,,kg | pack | unit
+products.csv,is_perishable,0,2,,,False | True
+products.csv,launch_date,0,145,2023-01-03T00:00:00+00:00,2025-09-20T00:00:00+00:00,
+stores.csv,store_id,0,15,,,
+stores.csv,store_name,0,15,,,
+stores.csv,zone,1,5,,, | East | North | South | West
+stores.csv,area,0,15,,,
+stores.csv,pincode,0,15,,,
+stores.csv,open_date,0,15,2024-02-14T00:00:00+00:00,2025-07-28T00:00:00+00:00,
+stores.csv,manager_name,0,15,,,
+stores.csv,capacity_orders_per_day,0,5,0,600,
+orders_2026-10-01_increment.csv,order_id,0,160,,,
+orders_2026-10-01_increment.csv,order_ts,0,152,2026-09-01T09:38:13+00:00,2026-10-01T22:33:00+00:00,
+orders_2026-10-01_increment.csv,customer_id,0,143,,,
+orders_2026-10-01_increment.csv,store_id,0,15,,,
+orders_2026-10-01_increment.csv,product_id,0,98,,,
+orders_2026-10-01_increment.csv,quantity,0,4,1,4,
+orders_2026-10-01_increment.csv,unit_price,0,90,10.0,883.0,
+orders_2026-10-01_increment.csv,discount_pct,0,5,0,20,
+orders_2026-10-01_increment.csv,order_amount,0,148,11.0,2052.0,
+orders_2026-10-01_increment.csv,payment_mode,0,4,,,Card | Cash on Delivery | UPI | Wallet
+orders_2026-10-01_increment.csv,order_status,0,2,,,DELIVERED | RETURNED
+orders_2026-10-01_increment.csv,channel,0,1,,,App
+orders_2026-10-01_increment.csv,delivery_minutes,0,24,8,34,

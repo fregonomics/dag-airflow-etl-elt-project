@@ -1,0 +1,7 @@
+file,rows,columns,duplicate_key_rows,blank_cells
+orders.csv,2412,13,24,183
+payments.csv,2228,7,8,301
+customers.csv,405,10,10,6
+products.csv,152,10,4,3
+stores.csv,15,8,0,1
+orders_2026-10-01_increment.csv,160,13,0,0
